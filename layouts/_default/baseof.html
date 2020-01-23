@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ with .Title }}{{ . }} / {{ end }}{{ .Site.Title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        <meta property="og:title" content="Marquette Learning Center">
+        <meta property="og:description" content="Marquette Learning Center would like to provide the community with an educational childcare facility in Marquette, Kansas.">
+        <meta property="og:image" content="/img/icons/marquette-learning-center-196.png">
+
+        <link rel="shortcut icon" type="image/x-icon" href="/img/icons/favicon.ico">
+        <link rel="icon" sizes="16x16 32x32 64x64" href="/img/icons/favicon-64.ico">
+        <link rel="icon" type="image/png"  href="/img/icons/marquette-learning-center-196.png">
+        <link rel="apple-touch-icon" href="/img/icons/marquette-learning-center-152.png">
+        <meta name="msapplication-TileColor" content="#fff">
+        <meta name="msapplication-TileImage" content="img/icons/marquette-learning-center-144.png">
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=BioRhyme:300,400|Open+Sans:400,700">
+        <link rel="stylesheet" type="text/css" href="/css/app.css?v=20190204">
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107388812-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date());
+            gtag('config', 'UA-107388812-1');
+        </script>
+    </head>
+    <body>
+        <div class="page">
+            <div class="nav-container">
+                <nav id="main-nav" class="nav">
+                    <ul>
+                        <li class="home{{ if .IsHome }} selected{{ end }}"><a href="/">Home</a></li>
+                        <li class="overview{{ if eq .Type "overview" }} selected{{ end }}"><a href="/overview/">Overview</a></li>
+                        <li class="hours-tuition{{ if eq .Type "hours-tuition" }} selected{{ end }}"><a href="/hours-tuition/">Hours &amp; Tuition</a></li>
+                        <li class="handbooks{{ if eq .Type "handbooks" }} selected{{ end }}"><a href="/handbooks/">Handbooks</a></li>
+                        <li class="enroll{{ if eq .Type "enroll" }} selected{{ end }}"><a href="/enroll/">Enroll</a></li>
+                        <li class="board-of-directors{{ if eq .Type "board-of-directors" }} selected{{ end }}"><a href="/board-of-directors/">Board</a></li>
+                        <li class="donate{{ if eq .Type "donate" }} selected{{ end }}"><a href="/donate/">Donate</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-container">
+                <header class="header{{ if .IsHome }} home{{ end }}">
+                    <h1><a href="/"><img src="/img/marquette-learning-center.png" alt="Marquette Learning Center"></a></h1>
+                    <h2>Excellence in Early Childhood Education</h2>
+                </header>
+            </div>
+            <div class="main-container">
+                <main class="main">
+                    {{ block "main" . }}
+                    {{ end }}
+                </main>
+            </div>
+            <div class="footer-container">
+                <footer class="footer">
+                    <ul>
+                        <li><a href="{{ .Site.Params.facebookURL }}">Visit Our Facebook Page</a></li>
+                        <li>310 Swedonia St. Marquette, KS 67464</li>
+                        <li>785-546-4246</li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+        <script src="/js/app.js?v=20180324"></script>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+---
+baseURL: "https://marquettelearningcenter.com/"
+languageCode: "en-us"
+title: "Marquette Learning Center"
+params:
+  facebookURL: "https://www.facebook.com/marquettelearningcenter"
+...
