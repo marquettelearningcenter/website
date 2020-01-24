@@ -691,16 +691,23 @@ strong {
 
 .vacancies {
     @include make-xs-column(12);
-    @include make-md-column(6);
     .content {
         padding: 60px 0 10px 0;
         text-align: center;
+    }
+    table {
+        margin: 0 auto;
+    }
+    td {
+        white-space: normal;
+        &:first-of-type {
+            padding-right: 40px;
+        }
     }
 }
 
 .contact {
     @include make-xs-column(12);
-    @include make-md-column(6);
     .content {
         padding: 60px 0 10px 0;
         text-align: center;

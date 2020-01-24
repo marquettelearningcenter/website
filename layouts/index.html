@@ -33,8 +33,14 @@
 <section class="vacancies">
     <div class="content">
         <h3>Vacancies</h3>
-        <p><span class="heading">{{.Params.room1vacancies.heading}}: </span><span class="text">{{.Params.room1vacancies.text}}</span></p>
-        <p><span class="heading">{{.Params.room2vacancies.heading}}: </span><span class="text">{{.Params.room2vacancies.text}}</span></p>
+        <table>
+            {{ range .Params.vacancies }}
+            <tr>
+                <td class="heading">{{ .heading }}</td>
+                <td class="text">{{ .text }}</td>
+            </tr>
+            {{ end }}
+        </table>
     </div>
 </section>
 <section class="contact">
