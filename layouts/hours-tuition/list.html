@@ -2,7 +2,38 @@
 
 <h2 class="main-header">{{ .Title }}</h2>
 <section class="main-content narrow">
-    {{ .Content }}
+    <h3>{{ .Params.hours_heading }}</h3>
+    <p>{{ .Params.hours_open }}</p>
+    <p>{{ .Params.days_closed }}</p>
+    <h3>{{ .Params.tuition_heading }}</h3>
+    <table class="tuition">
+        <tr>
+            <th colspan="2">{{ .Params.fulltime_heading }}</th>
+        </tr>
+        {{ range .Params.tuition_fulltime }}
+        <tr>
+            <td>{{ .heading }}</td>
+            <td>{{ .rate }}</td>
+        </tr>
+        {{ end }}
+    </table>
+    <table class="tuition">
+        <tr>
+            <th colspan="2">{{ .Params.schoolage_heading }}</th>
+        </tr>
+        {{ range .Params.tuition_schoolage }}
+        <tr>
+            <td>{{ .heading }}</td>
+            <td>{{ .rate }}</td>
+        </tr>
+        {{ end }}
+    </table>
+    <h3>{{ .Params.requirements_heading }}</h3>
+    <ul>
+        {{ range .Params.requirements }}
+        <li>{{ .requirement }}</li>
+        {{ end }}
+    </ul>
 </section>
 
 {{ end }}

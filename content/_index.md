@@ -11,4 +11,3 @@ vacancies:
   - heading: The Gary Mayfield and Family Classroom (6-12yrs)
     text: 11 vacancies
 ---
-

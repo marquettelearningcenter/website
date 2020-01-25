@@ -2,7 +2,11 @@
 
 <h2 class="main-header">{{ .Title }}</h2>
 <section class="main-content narrow">
-    {{ .Content }}
+    {{ range .Params.handbooks }}
+    <h3>{{ .name }}</h3>
+    <p>{{ .description }}</p>
+    <p><a href="{{ .file }}">View {{ .name }}</a></p>
+    {{ end }}
 </section>
 
 {{ end }}

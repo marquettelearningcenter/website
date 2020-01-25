@@ -3,6 +3,10 @@
 <h2 class="main-header">{{ .Title }}</h2>
 <section class="main-content narrow">
     {{ .Content }}
+    <h3>{{ .Params.forms_title }}</h3>
+    {{ range .Params.forms }}
+    <p><a href="{{ .file }}">{{ .heading }}</a></p>
+    {{ end }}
 </section>
 
 {{ end }}

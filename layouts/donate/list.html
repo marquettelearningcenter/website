@@ -2,7 +2,22 @@
 
 <h2 class="main-header">{{ .Title }}</h2>
 <section class="main-content narrow">
-    {{ .Content }}
+    <div class="donate-levels">
+        {{ .Content }}
+    </div>
+    <div class="donate-options">
+        <p>Make checks payable to:<br>
+        Marquette Learning Center<br>
+        P.O. Box 204 Marquette, KS 67464</p>
+        <p>Or donate using PayPal:</p>
+        <!-- edit button: https://www.paypal.com/us/cgi-bin/customerprofileweb?cmd=_button-management -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="JJAMCYDLYQQDW">
+            <input class="btn btn-large" type="submit" name="submit" value="Donate With PayPal">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    </div>
 </section>
 
 {{ end }}

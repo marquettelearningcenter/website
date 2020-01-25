@@ -2,7 +2,18 @@
 
 <h2 class="main-header">{{ .Title }}</h2>
 <section class="main-content">
-    {{ .Content }}
+    {{ range .Params.directors }}
+    <div class="director">
+        <div class="photo">
+            <img src="{{ .photo }}" alt="{{ .name }}">
+        </div>
+        <div class="content">
+            <h3>{{ .name }}</h3>
+            <h4>{{ .role }}</h4>
+            <p>{{ .bio }}</p>
+        </div>
+    </div>
+    {{ end }}
 </section>
 
 {{ end }}
