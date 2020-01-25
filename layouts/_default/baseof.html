@@ -38,9 +38,11 @@
                     <ul>
                         <li class="home{{ if .IsHome }} selected{{ end }}"><a href="/">Home</a></li>
                         <li class="overview{{ if eq .Type "overview" }} selected{{ end }}"><a href="/overview/">Overview</a></li>
+                        <li class="photos{{ if eq .Type "photos" }} selected{{ end }}"><a href="/photos/">Photos</a></li>
                         <li class="hours-tuition{{ if eq .Type "hours-tuition" }} selected{{ end }}"><a href="/hours-tuition/">Hours &amp; Tuition</a></li>
                         <li class="handbooks{{ if eq .Type "handbooks" }} selected{{ end }}"><a href="/handbooks/">Handbooks</a></li>
                         <li class="enroll{{ if eq .Type "enroll" }} selected{{ end }}"><a href="/enroll/">Enroll</a></li>
+                        <li class="staff{{ if eq .Type "staff" }} selected{{ end }}"><a href="/staff/">Staff</a></li>
                         <li class="board-of-directors{{ if eq .Type "board-of-directors" }} selected{{ end }}"><a href="/board-of-directors/">Board</a></li>
                         <li class="donate{{ if eq .Type "donate" }} selected{{ end }}"><a href="/donate/">Donate</a></li>
                     </ul>
