@@ -2,6 +2,7 @@
 baseURL: "https://marquettelearningcenter.com/"
 languageCode: "en-us"
 title: "Marquette Learning Center"
+disableKinds: ["RSS","taxonomyTerm"]
 params:
   facebookURL: "https://www.facebook.com/marquettelearningcenter"
 ...
