@@ -307,6 +307,17 @@ strong {
 // -----------------------------------------------------------------------------
 // Components
 
+.photo {
+    text-align: center;
+    img {
+        @include img-responsive;
+        border-radius: $border-radius;
+    }
+    .caption {
+        font-size: $font-size-small;
+    }
+}
+
 // Menu Bar & Nav Components
 
 .menu-bar {// Created by JavaScript (see app.js)
@@ -463,6 +474,10 @@ strong {
     color: $orange;
     font-weight: $font-weight-light;
     text-align: center;
+    &.no-border {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
 }
 
 .main-content {
@@ -714,6 +729,16 @@ strong {
     }
 }
 
+// Facebook Photos Components
+
+.facebook-photos {
+    @include make-xs-column(12);
+    .content {
+        padding: 60px 0 10px 0;
+        text-align: center;
+    }
+}
+
 // Hours & Tuition Components
 
 table.tuition {
@@ -743,8 +768,6 @@ table.tuition {
         @include make-sm-column(8);
     }
     img {
-        @include img-responsive;
-        border-radius: $border-radius;
         margin-bottom: 20px;
     }
     h3 {

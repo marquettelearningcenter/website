@@ -1,8 +1,19 @@
 {{ define "main" }}
 
-<h2 class="main-header">{{ .Title }}</h2>
-<section class="main-content narrow">
-    {{ .Content }}
+<h2 class="main-header no-border">{{ .Title }}</h2>
+<section class="main-content">
+    {{ range .Params.photos }}
+    <div class="photo">
+        <img src="{{ .photo }}" alt="">
+        <span class="caption">{{ .caption }}</span>
+    </div>
+    {{ end }}
+    <section class="facebook-photos">
+        <div class="content">
+            <h3>Want to see more?</h3>
+            <p>Visit our <a href="{{ .Site.Params.facebookURL }}/photos/">Facebook page</a> to see more photos.</p>
+        </div>
+    </section>
 </section>
 
 {{ end }}
