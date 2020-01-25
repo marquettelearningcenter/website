@@ -310,23 +310,23 @@ strong {
 // Menu Bar & Nav Components
 
 .menu-bar {// Created by JavaScript (see app.js)
-    // Show menu bar on xs breakpoint
+    // Show menu bar on xs-sm breakpoint
     display: block;
-    // Hide menu bar on sm-lg breakpoints
-    @media (min-width: $screen-sm-min) {
+    // Hide menu bar on md-lg breakpoints
+    @media (min-width: $screen-md-min) {
         display: none;
     }
 }
 
 .main-nav {// ClassName added by JavaScript (see app.js)
-    // Hide main nav on xs breakpoint
+    // Hide main nav on xs-sm breakpoint
     display: none;
     border-top: solid 1px $blue-green;
     &.show {// ClassName toggled by JavaScript
         display: block;
     }
-    @media (min-width: $screen-sm-min) {
-        // Show main nav on sm-lg breakpoints
+    @media (min-width: $screen-md-min) {
+        // Show main nav on md-lg breakpoints
         display: block;
         border-top: none;
     }
@@ -376,7 +376,7 @@ strong {
             color: #fff;
         }
     }
-    @media (min-width: $screen-sm-min) {// Horizontal nav
+    @media (min-width: $screen-md-min) {// Horizontal nav
         padding: 10px;
         text-align: center;
         li {
@@ -384,7 +384,7 @@ strong {
             margin: 0 15px;
         }
     }
-    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {// sm only
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {// sm only
         // 1. Maintain the height of the nav when reducing the font size
         padding-top: 14px;// 1
         padding-bottom: 13px;// 1
