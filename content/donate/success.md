@@ -1,5 +1,5 @@
 ---
-title: "Thanks for your donation!"
+title: Thanks for your donation!
 layout: success
 ---
 
