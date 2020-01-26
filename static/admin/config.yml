@@ -5,7 +5,7 @@ backend:
 editor:
   preview: false
 
- logo_url: https://marquettelearningcenter.com//img/icons/marquette-learning-center-144.png
+logo_url: https://marquettelearningcenter.com/img/icons/marquette-learning-center-144.png
 
 media_folder: "static/img/uploads" # Folder where user uploaded files should go
 public_folder: "/img/uploads" # The src attribute for uploaded files
