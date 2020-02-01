@@ -1,5 +1,3 @@
 ---
 title: Staff
 ---
-
-Coming soon
