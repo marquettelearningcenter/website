@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: master
 
-site_url: https://marquettelearningcenter.netlify.com
-display_url: https://marquettelearningcenter.netlify.com
-logo_url: https://marquettelearningcenter.netlify.com/img/icons/marquette-learning-center-144.png
+site_url: https://marquettelearningcenter.com
+display_url: https://marquettelearningcenter.com
+logo_url: https://marquettelearningcenter.com/img/icons/marquette-learning-center-144.png
 
 editor:
   preview: false
