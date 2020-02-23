@@ -48,6 +48,15 @@
                     </ul>
                 </nav>
             </div>
+            {{ if eq .Site.Data.alert.active true }}
+            <div class="site-alert-container">
+                <div class="site-alert">
+                    <div class="site-alert-content">
+                        {{ index .Site.Data.alert "message" | markdownify }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
             <div class="header-container">
                 <header class="header{{ if .IsHome }} home{{ end }}">
                     <h1><a href="/"><img src="/img/marquette-learning-center.png" alt="Marquette Learning Center"></a></h1>

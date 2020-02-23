@@ -254,6 +254,21 @@ strong {
     }
 }
 
+@mixin make-fixed-container {
+    @include container-fixed;
+    //max-width: $container-md;
+
+    @media (min-width: $screen-sm-min) {
+        width: $container-sm;
+    }
+    @media (min-width: $screen-md-min) {
+        width: $container-md;
+    }
+    @media (min-width: $screen-lg-min) {
+        width: $container-lg;
+    }
+}
+
 // -----------------------------------------------------------------------------
 // Utilities
 
@@ -315,6 +330,45 @@ strong {
     }
     .caption {
         font-size: $font-size-small;
+    }
+}
+
+// Alert Component
+
+.site-alert-container {
+    @include make-fixed-container;
+}
+
+.site-alert {
+    @include make-row;
+    padding-top: 10px;
+}
+
+.site-alert-content {
+    @include make-xs-column(12);
+    padding: 10px;
+    padding-left: 64px;// Push content over to clear icon
+    background-color: $orange;
+    background-image: url(/img/alert.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 24px 24px;
+    color: $white;
+    line-height: 1.2;
+    p {
+        margin-bottom: 10px;
+        line-height: 1.2;
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
+    a {
+        color: $white;
+        text-decoration: underline;
+    }
+    @media (min-width: $screen-sm-min) {
+        border-radius: $border-radius;
+        text-align: center;
     }
 }
 
@@ -447,18 +501,7 @@ strong {
 // Main Components
 
 .main-container {
-    @include container-fixed;
-    //max-width: $container-md;
-
-    @media (min-width: $screen-sm-min) {
-        width: $container-sm;
-    }
-    @media (min-width: $screen-md-min) {
-        width: $container-md;
-    }
-    @media (min-width: $screen-lg-min) {
-        width: $container-lg;
-    }
+    @include make-fixed-container;
 }
 
 .main {

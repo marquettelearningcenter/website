@@ -12,7 +12,7 @@ editor:
 media_folder: "static/img/uploads" # Folder where user uploaded files should go
 public_folder: "/img/uploads" # The src attribute for uploaded files
 
-collections: # A list of collections the CMS should be able to edit
+collections:
   - name: "pages"
     label: "Pages"
     files:
@@ -30,3 +30,12 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: string
+  - name: "global"
+    label: "Global"
+    files:
+      - file: "data/alert.yaml"
+        label: "Alert"
+        name: "alert"
+        fields:
+          - {label: Active, name: active, widget: boolean, default: false}
+          - {label: Message, name: message, widget: markdown, buttons: [bold, italic, link]}
