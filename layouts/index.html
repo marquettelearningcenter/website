@@ -2,37 +2,37 @@
 
 <section class="intro">
     <div class="content">
-        <p class="lead">At Marquette Learning Center we believe that communication is an important aspect of your child's success and vital to building strong parent/teacher relationships.</p>
-        <p>Our mission is to provide a safe and stable learning environment that nurtures a foundation for lifelong success through developmentally appropriate curriculum that stimulates the social, emotional, cognitive, and physical growth of each individual child.</p>
+        <p class="lead">{{ .Params.intro_lead }}</p>
+        <p>{{ .Params.intro_content }}</p>
     </div>
 </section>
 <section class="objectives">
     <div class="content">
-        <p class="lead">Marquette Learning Center will uphold its mission through the following objectives:</p>
+        <p class="lead">{{ .Params.objectives_lead }}</p>
         <ul>
-            <li>To provide quality child care for all families in our community and surrounding areas in a nurturing, loving and educational environment.</li>
-            <li>To provide an environment where children will develop positive social skills while learning about their world though age-appropriate play, projects, and activities.</li>
-            <li>To provide opportunities for families to be involved with their children's education and have access to parenting support and education resources.</li>
+            {{ range .Params.objectives }}
+            <li>{{ .objective }}</li>
+            {{ end }}
         </ul>
     </div>
 </section>
 <section class="stayuptodate-feature">
     <div class="content">
-        <h3>Stay Up To Date</h3>
-        <p>Visit our Facebook page to stay up to date on the latest news.</p>
-        <a class="btn" href="{{ .Site.Data.config.facebookURL }}">Visit <span class="hide-xs-inline">Our </span>Facebook<span class="hide-xs-inline"> Page</span></a>
+        <h3>{{ .Params.facebook_heading }}</h3>
+        <p>{{ .Params.facebook_content }}</p>
+        <a class="btn" href="{{ .Site.Data.config.facebookURL }}">{{ .Params.facebook_cta }}</a>
     </div>
 </section>
 <section class="donate-feature">
     <div class="content">
-        <h3>Building Blocks for the Future</h3>
-        <p>We appreciate your support.</p>
-        <a class="btn" href="/donate/">Donate Now</a>
+        <h3>{{ .Params.donate_heading }}</h3>
+        <p>{{ .Params.donate_content }}</p>
+        <a class="btn" href="/donate/">{{ .Params.donate_cta }}</a>
     </div>
 </section>
 <section class="vacancies">
     <div class="content">
-        <h3>Vacancies</h3>
+        <h3>{{ .Params.vacancies_heading }}</h3>
         <table>
             {{ range .Params.vacancies }}
             <tr>
@@ -45,7 +45,7 @@
 </section>
 <section class="contact">
     <div class="content">
-        <h3>For more information:</h3>
+        <h3>{{ .Params.contact_heading }}</h3>
         <p>call {{ .Site.Data.config.phone }} or <script type="text/javascript">document.write("<n uers=\"znvygb:znedhrggryrneavatpragre@tznvy.pbz\">".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));document.write('send us an email</a>');</script></p>
     </div>
 </section>
