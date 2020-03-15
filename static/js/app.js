@@ -27,4 +27,21 @@
     <div class="menu-bar"><a href="#">Menu</a></div>
     <nav id="main-nav" class="nav main-nav">...
     */
+
+    // Alert Additional Info
+    var alertAdditionalInfo = document.getElementById('site-alert-additional-information');
+    if (alertAdditionalInfo) {
+        var isAdditionalInfoShowing = false;
+        // Capture classname of additional info
+        var alertAdditionalInfoClassName = alertAdditionalInfo.className;
+        // Enable additional info toggle
+        var alertToggle = document.getElementById('site-alert-toggle');
+        if (alertToggle) {
+            alertToggle.addEventListener('click', function(e){
+                e.preventDefault();
+                alertAdditionalInfo.className = isAdditionalInfoShowing ? alertAdditionalInfoClassName : alertAdditionalInfoClassName + ' show';
+                isAdditionalInfoShowing = ! isAdditionalInfoShowing;
+            });
+        }
+    }
 }());

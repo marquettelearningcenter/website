@@ -211,7 +211,6 @@ strong {
     text-transform: lowercase;
     text-align: center;
     transition: background-color .1s ease-in-out;
-
     &:focus {
         outline: 0;
     }
@@ -257,7 +256,6 @@ strong {
 @mixin make-fixed-container {
     @include container-fixed;
     //max-width: $container-md;
-
     @media (min-width: $screen-sm-min) {
         width: $container-sm;
     }
@@ -342,33 +340,48 @@ strong {
 .site-alert {
     @include make-row;
     padding-top: 10px;
-}
-
-.site-alert-content {
-    @include make-xs-column(12);
-    padding: 10px;
-    padding-left: 64px;// Push content over to clear icon
-    background-color: $orange;
-    background-image: url(/img/alert.png);
-    background-repeat: no-repeat;
-    background-position: 20px center;
-    background-size: 24px 24px;
-    color: $white;
-    line-height: 1.2;
-    p {
-        margin-bottom: 10px;
-        line-height: 1.2;
-    }
-    p:last-child {
-        margin-bottom: 0;
-    }
-    a {
+    .content {
+        @include make-xs-column(12);
+        background-color: $orange;
         color: $white;
-        text-decoration: underline;
+        a {
+            color: $white;
+            text-decoration: underline;
+        }
+        @media (min-width: $screen-sm-min) {
+            border-radius: $border-radius;
+            text-align: center;
+        }
     }
-    @media (min-width: $screen-sm-min) {
-        border-radius: $border-radius;
-        text-align: center;
+    .alert-message {
+        padding: 10px 0;
+        padding-left: 64px;// Push content over to clear icon
+        background-image: url(/img/alert.png);
+        background-repeat: no-repeat;
+        background-position: 20px center;
+        background-size: 24px 24px;
+        p {
+            margin-bottom: 10px;
+        }
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .additional-information {
+        display: none;// Hide additional content initially
+        margin-left: -15px;
+        margin-right: -15px;
+        padding: 30px;
+        border-top: solid 1px rgba(255,255,255,0.25);
+        text-align: left;
+        &.show {// ClassName toggled by JavaScript
+            display: block;
+        }
+    }
+    button {
+        @include make-btn;
+        padding: 0 5px;
+        font-size: $font-size-small;
     }
 }
 

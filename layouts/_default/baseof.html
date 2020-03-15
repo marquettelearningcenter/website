@@ -51,8 +51,18 @@
             {{ if eq .Site.Data.alert.active true }}
             <div class="site-alert-container">
                 <div class="site-alert">
-                    <div class="site-alert-content">
-                        {{ index .Site.Data.alert "message" | markdownify }}
+                    <div class="content">
+                        <div class="alert-message">
+                            {{ index .Site.Data.alert "message" | markdownify }}
+                            {{ if .Site.Data.alert.additional_information }}
+                                <button id="site-alert-toggle">More info</button>
+                            {{ end }}
+                        </div>
+                        {{ if .Site.Data.alert.additional_information }}
+                            <div id="site-alert-additional-information" class="additional-information">
+                                {{ index .Site.Data.alert "additional_information" | markdownify }}
+                            </div>
+                        {{ end }}
                     </div>
                 </div>
             </div>
