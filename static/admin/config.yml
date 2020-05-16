@@ -9,8 +9,8 @@ logo_url: https://marquettelearningcenter.com/img/icons/marquette-learning-cente
 editor:
   preview: false
 
-media_folder: "static/img/uploads" # Folder where user uploaded files should go
-public_folder: "/img/uploads" # The src attribute for uploaded files
+media_folder: "static/uploads" # Folder where user uploaded files should go
+public_folder: "/uploads" # The src attribute for uploaded files
 
 collections:
   - name: "pages"
@@ -181,6 +181,45 @@ collections:
                   - label: Requirement
                     name: requirement
                     widget: string
+      - file: "content/handbooks/_index.md"
+        label: "Handbooks"
+        name: "handbooks"
+        fields:
+          - label: Handbooks
+            name: handbooks
+            widget: list
+            fields:
+              - label: Name
+                name: name
+                widget: string
+              - label: Description
+                name: description
+                widget: text
+              - label: File
+                name: file
+                widget: file
+                allow_multiple: false
+      - file: "content/enroll/_index.md"
+        label: "Enroll"
+        name: "enroll"
+        fields:
+          - label: Content
+              name: body
+              widget: markdown
+          - label: Forms Heading
+              name: forms_heading
+              widget: string
+          - label: Forms
+            name: forms
+            widget: list
+            fields:
+              - label: Name
+                name: name
+                widget: string
+              - label: File
+                name: file
+                widget: file
+                allow_multiple: false
   - name: "global"
     label: "Global"
     files:
