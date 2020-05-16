@@ -3,9 +3,10 @@
 <h2 class="main-header">{{ .Title }}</h2>
 <section class="main-content">
     {{ range .Params.directors }}
+        {{ if eq .active true }}
     <div class="director">
         <div class="photo">
-            <img src="{{ .photo }}" alt="{{ .name }}">
+            <img src="{{ .image }}" alt="{{ .name }}">
         </div>
         <div class="content">
             <h3>{{ .name }}</h3>
@@ -13,6 +14,7 @@
             <p>{{ .bio }}</p>
         </div>
     </div>
+        {{ end }}
     {{ end }}
 </section>
 

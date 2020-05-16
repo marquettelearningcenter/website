@@ -220,6 +220,32 @@ collections:
                 name: file
                 widget: file
                 allow_multiple: false
+      - file: "content/board-of-directors/_index.md"
+        label: "Board of Directors"
+        name: "board"
+        fields:
+          - label: Directors
+            name: directors
+            widget: list
+            fields:
+              - label: Active
+                name: active
+                widget: boolean
+                default: true
+              - label: Name
+                name: name
+                widget: string
+              - label: Role
+                name: role
+                widget: string
+              - label: Image
+                name: image
+                widget: image
+                allow_multiple: false
+                hint: "Photo must be 500x400 JPG image."
+              - label: Bio
+                name: bio
+                widget: text
   - name: "global"
     label: "Global"
     files:
