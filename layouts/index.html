@@ -2,39 +2,39 @@
 
 <section class="intro">
     <div class="content">
-        <p class="lead">{{ .Params.intro_lead }}</p>
-        <p>{{ .Params.intro_content }}</p>
+        <p class="lead">{{ .Params.intro.lead }}</p>
+        <p>{{ .Params.intro.content }}</p>
     </div>
 </section>
 <section class="objectives">
     <div class="content">
-        <p class="lead">{{ .Params.objectives_lead }}</p>
+        <p class="lead">{{ .Params.objectives.lead }}</p>
         <ul>
-            {{ range .Params.objectives }}
+            {{ range .Params.objectives.objectives_list }}
             <li>{{ .objective }}</li>
             {{ end }}
         </ul>
     </div>
 </section>
-<section class="stayuptodate-feature">
+<section class="feature1">
     <div class="content">
-        <h3>{{ .Params.facebook_heading }}</h3>
-        <p>{{ .Params.facebook_content }}</p>
-        <a class="btn" href="{{ .Site.Data.config.facebookURL }}">{{ .Params.facebook_cta }}</a>
+        <h3>{{ .Params.feature1.heading }}</h3>
+        <p>{{ .Params.feature1.content }}</p>
+        <a class="btn" href="{{ .Params.feature1.url }}">{{ .Params.feature1.cta }}</a>
     </div>
 </section>
-<section class="donate-feature">
+<section class="feature2">
     <div class="content">
-        <h3>{{ .Params.donate_heading }}</h3>
-        <p>{{ .Params.donate_content }}</p>
-        <a class="btn" href="/donate/">{{ .Params.donate_cta }}</a>
+        <h3>{{ .Params.feature2.heading }}</h3>
+        <p>{{ .Params.feature2.content }}</p>
+        <a class="btn" href="{{ .Params.feature2.url }}">{{ .Params.feature2.cta }}</a>
     </div>
 </section>
 <section class="vacancies">
     <div class="content">
-        <h3>{{ .Params.vacancies_heading }}</h3>
+        <h3>{{ .Params.vacancies.heading }}</h3>
         <table>
-            {{ range .Params.vacancies }}
+            {{ range .Params.vacancies.vacancies_list }}
             <tr>
                 <td class="heading">{{ .heading }}</td>
                 <td class="text">{{ .text }}</td>
@@ -45,8 +45,8 @@
 </section>
 <section class="contact">
     <div class="content">
-        <h3>{{ .Params.contact_heading }}</h3>
-        <p>call {{ .Site.Data.config.phone }} or <script type="text/javascript">document.write("<n uers=\"znvygb:znedhrggryrneavatpragre@tznvy.pbz\">".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));document.write('send us an email</a>');</script></p>
+        <h3>{{ .Params.contact.heading }}</h3>
+        <p>call {{ .Site.Data.config.phone }} or <a href="mailto:{{ .Site.Data.config.email }}">send us an email</a></p>
     </div>
 </section>
 

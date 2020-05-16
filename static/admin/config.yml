@@ -104,3 +104,11 @@ collections:
           - {label: Active, name: active, widget: boolean, default: false}
           - {label: Message, name: message, widget: markdown, buttons: [bold, italic, link]}
           - {label: Additional Information, name: additional_information, required: false, widget: markdown, buttons: [bold, italic, link]}
+      - file: "data/config.yaml"
+        label: "Config"
+        name: "config"
+        fields:
+          - {label: Facebook URL, name: facebook_url, widget: text}
+          - {label: Phone, name: phone, widget: text}
+          - {label: Email, name: email, widget: text}
+          - {label: Address, name: address, widget: text}
