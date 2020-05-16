@@ -20,6 +20,66 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
+          - label: Intro
+            name: intro
+            widget: object
+            collapsed: true
+            fields:
+              - label: Lead
+                name: lead
+                widget: text
+              - label: Content
+                name: content
+                widget: text
+          - label: Objectives
+            name: objectives
+            widget: object
+            collapsed: true
+            fields:
+              - label: Lead
+                name: lead
+                widget: text
+              - label: Objectives
+                name: objectives_list
+                widget: list
+                fields:
+                  - label: Objective
+                    name: objective
+                    widget: text
+          - label: Feature 1
+            name: feature1
+            widget: object
+            collapsed: true
+            fields:
+              - label: Heading
+                name: heading
+                widget: string
+              - label: Content
+                name: content
+                widget: string
+              - label: CTA
+                name: cta
+                widget: string
+              - label: URL
+                name: url
+                widget: string
+          - label: Feature 2
+            name: feature2
+            widget: object
+            collapsed: true
+            fields:
+              - label: Heading
+                name: heading
+                widget: string
+              - label: Content
+                name: content
+                widget: string
+              - label: CTA
+                name: cta
+                widget: string
+              - label: URL
+                name: url
+                widget: string
           - label: Vacancies
             name: vacancies
             widget: object
@@ -38,6 +98,15 @@ collections:
                   - label: Text
                     name: text
                     widget: string
+          - label: Contact
+            name: contact
+            widget: object
+            collapsed: true
+            hint: "The phone and email can be edited in Collections/Global/Config."
+            fields:
+              - label: Heading
+                name: heading
+                widget: string
       - file: "content/hours-tuition/_index.md"
         label: "Hours & Tuition"
         name: "hours_tuition"
