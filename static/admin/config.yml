@@ -102,11 +102,11 @@ collections:
             name: contact
             widget: object
             collapsed: true
-            hint: "The phone and email can be edited in Collections/Global/Config."
             fields:
               - label: Heading
                 name: heading
                 widget: string
+                hint: "The phone and email can be edited in Collections/Global/Config."
       - file: "content/hours-tuition/_index.md"
         label: "Hours & Tuition"
         name: "hours_tuition"
