@@ -238,7 +238,7 @@ collections:
                 name: image
                 widget: image
                 allow_multiple: false
-                hint: "Photo must be 500x400 JPG image."
+                hint: "Photo must be a 500x400 JPG image."
               - label: Bio
                 name: bio
                 widget: text
