@@ -227,7 +227,7 @@ collections:
           - label: Directors
             name: directors
             widget: list
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}} - {{fields.role}}"
             fields:
               - label: Active
                 name: active
