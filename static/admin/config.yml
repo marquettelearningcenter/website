@@ -228,10 +228,6 @@ collections:
             name: directors
             widget: list
             fields:
-              - label: Active
-                name: active
-                widget: boolean
-                default: true
               - label: Name
                 name: name
                 widget: string
@@ -246,6 +242,10 @@ collections:
               - label: Bio
                 name: bio
                 widget: text
+              - label: Active
+                name: active
+                widget: boolean
+                default: true
   - name: "global"
     label: "Global"
     files:
