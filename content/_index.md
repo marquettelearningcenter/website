@@ -39,5 +39,4 @@ vacancies:
 # Contact
 contact:
   heading: "For more information:"
-  content: "call 785-546-4246 or send us an email"
 ---
