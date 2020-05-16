@@ -30,16 +30,16 @@ collections:
               - label: Text
                 name: text
                 widget: string
-        - file: "content/hours-tuition/_index.md"
-          label: "Hours & Tuition"
-          name: "hours_tuition"
-          fields:
-            - label: Hours Open
-              name: hours_open
-              widget: string
-            - label: Hours Closed
-              name: hours_closed
-              widget: string
+      - file: "content/hours-tuition/_index.md"
+        label: "Hours & Tuition"
+        name: "hours_tuition"
+        fields:
+          - label: Hours Open
+            name: hours_open
+            widget: string
+          - label: Hours Closed
+            name: hours_closed
+            widget: string
   - name: "global"
     label: "Global"
     files:
