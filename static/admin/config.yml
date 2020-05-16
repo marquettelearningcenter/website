@@ -34,12 +34,66 @@ collections:
         label: "Hours & Tuition"
         name: "hours_tuition"
         fields:
-          - label: Hours Open
-            name: hours_open
-            widget: string
-          - label: Hours Closed
-            name: hours_closed
-            widget: string
+          - label: Hours
+            name: hours_group
+            widget: object
+            fields:
+              - label: Hours Heading
+                name: hours_heading
+                widget: string
+              - label: Hours Open
+                name: hours_open
+                widget: string
+              - label: Hours Closed
+                name: hours_closed
+                widget: string
+          - label: Tuition
+            name: tuition_group
+            widget: object
+            fields:
+              - label: Tuition Heading
+                name: tuition_heading
+                widget: string
+              - label: Fulltime Heading
+                name: fulltime_heading
+                widget: string
+              - label: Tuition Fulltime
+                name: tuition_fulltime
+                widget: list
+                fields:
+                  - label: Heading
+                    name: heading
+                    widget: string
+                  - label: Rate
+                    name: rate
+                    widget: string
+              - label: Schoolage Heading
+                name: schoolage_heading
+                widget: string
+              - label: Tuition Schoolage
+                name: tuition_schoolage
+                widget: list
+                fields:
+                  - label: Heading
+                    name: heading
+                    widget: string
+                  - label: Rate
+                    name: rate
+                    widget: string
+          - label: Requirements
+            name: requirements_group
+            widget: object
+            fields:
+              - label: Requirements Heading
+                name: requirements_heading
+                widget: string
+              - label: Requirements
+                name: requirements
+                widget: list
+                fields:
+                  - label: Requirement
+                    name: requirement
+                    widget: string
   - name: "global"
     label: "Global"
     files:
