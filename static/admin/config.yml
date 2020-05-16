@@ -204,11 +204,11 @@ collections:
         name: "enroll"
         fields:
           - label: Content
-              name: body
-              widget: markdown
+            name: body
+            widget: markdown
           - label: Forms Heading
-              name: forms_heading
-              widget: string
+            name: forms_heading
+            widget: string
           - label: Forms
             name: forms
             widget: list
