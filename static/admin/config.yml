@@ -227,7 +227,12 @@ collections:
           - label: Directors
             name: directors
             widget: list
+            summary: '{{fields.name}}'
             fields:
+              - label: Active
+                name: active
+                widget: boolean
+                default: true
               - label: Name
                 name: name
                 widget: string
@@ -242,10 +247,6 @@ collections:
               - label: Bio
                 name: bio
                 widget: text
-              - label: Active
-                name: active
-                widget: boolean
-                default: true
       - file: "content/donate/_index.md"
         label: "Donate"
         name: "donate"
