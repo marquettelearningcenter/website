@@ -246,6 +246,26 @@ collections:
                 name: active
                 widget: boolean
                 default: true
+      - file: "content/donate/_index.md"
+        label: "Donate"
+        name: "donate"
+        fields:
+          - label: Content
+            name: body
+            widget: markdown
+          - label: Mail Heading
+            name: mail_heading
+            widget: string
+          - label: Mail Address
+            name: mail_address
+            widget: string
+      - file: "content/donate/success.md"
+        label: "Donate / Success"
+        name: "donate_success"
+        fields:
+          - label: Content
+            name: body
+            widget: markdown
   - name: "global"
     label: "Global"
     files:

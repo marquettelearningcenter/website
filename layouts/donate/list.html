@@ -6,10 +6,8 @@
         {{ .Content }}
     </div>
     <div class="donate-options">
-        <p>Make checks payable to:<br>
-        Marquette Learning Center<br>
-        P.O. Box 204 Marquette, KS 67464</p>
-        <p>Or donate using PayPal:</p>
+        <h4>{{ .Params.mail_heading }}</h4>
+        <p>{{ .Params.mail_address }}</p>
         <!-- edit button: https://www.paypal.com/us/cgi-bin/customerprofileweb?cmd=_button-management -->
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
