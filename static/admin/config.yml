@@ -227,15 +227,14 @@ collections:
           - label: Directors
             name: directors
             widget: list
-            summary: "{{fields.name}} - {{fields.role}}"
             fields:
+              - label: Name
+                name: name
+                widget: string
               - label: Active
                 name: active
                 widget: boolean
                 default: true
-              - label: Name
-                name: name
-                widget: string
               - label: Role
                 name: role
                 widget: string
