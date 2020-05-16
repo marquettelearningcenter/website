@@ -111,6 +111,9 @@ collections:
         label: "Overview"
         name: "overview"
         fields:
+          - label: Page Title
+            name: title
+            widget: string
           - label: Content
             name: body
             widget: markdown
@@ -118,6 +121,9 @@ collections:
         label: "Hours & Tuition"
         name: "hours_tuition"
         fields:
+          - label: Page Title
+            name: title
+            widget: string
           - label: Hours
             name: hours
             widget: object
@@ -185,6 +191,9 @@ collections:
         label: "Handbooks"
         name: "handbooks"
         fields:
+          - label: Page Title
+            name: title
+            widget: string
           - label: Handbooks
             name: handbooks
             widget: list
@@ -203,6 +212,9 @@ collections:
         label: "Enroll"
         name: "enroll"
         fields:
+          - label: Page Title
+            name: title
+            widget: string
           - label: Content
             name: body
             widget: markdown
@@ -224,6 +236,9 @@ collections:
         label: "Board of Directors"
         name: "board"
         fields:
+          - label: Page Title
+            name: title
+            widget: string
           - label: Directors
             name: directors
             widget: list
@@ -250,6 +265,9 @@ collections:
         label: "Donate"
         name: "donate"
         fields:
+          - label: Page Title
+            name: title
+            widget: string
           - label: Content
             name: body
             widget: markdown
@@ -263,6 +281,9 @@ collections:
         label: "Donate / Success"
         name: "donate_success"
         fields:
+          - label: Page Title
+            name: title
+            widget: string
           - label: Content
             name: body
             widget: markdown
