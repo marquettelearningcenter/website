@@ -2,7 +2,9 @@
 
 <h2 class="main-header">{{ .Title }}</h2>
 <section class="main-content narrow">
-    {{ .Content }}
+    <h3>{{ .Params.hours_heading }}</h3>
+    <p>{{ .Params.hours_open }}</p>
+    <p>{{ .Params.hours_closed }}</p>
     <h3>{{ .Params.tuition_heading }}</h3>
     <table class="tuition">
         <tr>
