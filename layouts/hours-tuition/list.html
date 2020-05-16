@@ -2,15 +2,15 @@
 
 <h2 class="main-header">{{ .Title }}</h2>
 <section class="main-content narrow">
-    <h3>{{ .Params.hours_heading }}</h3>
-    <p>{{ .Params.hours_open }}</p>
-    <p>{{ .Params.hours_closed }}</p>
-    <h3>{{ .Params.tuition_heading }}</h3>
+    <h3>{{ .Params.hours.heading }}</h3>
+    <p>{{ .Params.hours.hours_open }}</p>
+    <p>{{ .Params.hours.hours_closed }}</p>
+    <h3>{{ .Params.tuition.heading }}</h3>
     <table class="tuition">
         <tr>
-            <th colspan="2">{{ .Params.fulltime_heading }}</th>
+            <th colspan="2">{{ .Params.tuition.fulltime_heading }}</th>
         </tr>
-        {{ range .Params.tuition_fulltime }}
+        {{ range .Params.tuition.tuition_fulltime }}
         <tr>
             <td>{{ .heading }}</td>
             <td>{{ .rate }}</td>
@@ -19,18 +19,18 @@
     </table>
     <table class="tuition">
         <tr>
-            <th colspan="2">{{ .Params.schoolage_heading }}</th>
+            <th colspan="2">{{ .Params.tuition.schoolage_heading }}</th>
         </tr>
-        {{ range .Params.tuition_schoolage }}
+        {{ range .Params.tuition.tuition_schoolage }}
         <tr>
             <td>{{ .heading }}</td>
             <td>{{ .rate }}</td>
         </tr>
         {{ end }}
     </table>
-    <h3>{{ .Params.requirements_heading }}</h3>
+    <h3>{{ .Params.requirements.heading }}</h3>
     <ul>
-        {{ range .Params.requirements }}
+        {{ range .Params.requirements.requirements_list }}
         <li>{{ .requirement }}</li>
         {{ end }}
     </ul>

@@ -35,11 +35,11 @@ collections:
         name: "hours_tuition"
         fields:
           - label: Hours
-            name: hours_group
+            name: hours
             widget: object
             fields:
-              - label: Hours Heading
-                name: hours_heading
+              - label: Heading
+                name: heading
                 widget: string
               - label: Hours Open
                 name: hours_open
@@ -48,11 +48,11 @@ collections:
                 name: hours_closed
                 widget: string
           - label: Tuition
-            name: tuition_group
+            name: tuition
             widget: object
             fields:
-              - label: Tuition Heading
-                name: tuition_heading
+              - label: Heading
+                name: heading
                 widget: string
               - label: Fulltime Heading
                 name: fulltime_heading
@@ -81,14 +81,14 @@ collections:
                     name: rate
                     widget: string
           - label: Requirements
-            name: requirements_group
+            name: requirements
             widget: object
             fields:
-              - label: Requirements Heading
-                name: requirements_heading
+              - label: Heading
+                name: heading
                 widget: string
               - label: Requirements
-                name: requirements
+                name: requirements_list
                 widget: list
                 fields:
                   - label: Requirement
