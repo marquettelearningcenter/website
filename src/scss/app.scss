@@ -683,7 +683,7 @@ strong {
         .content {
             padding: 60px;
             padding-right: 390px;// push over content
-            background-image: url(/img/stayuptodate.png);
+            background-image: url(/img/feature1.png);
             background-size: 380px 290px;
             background-repeat: no-repeat;
             background-position: right -65px;
@@ -728,21 +728,21 @@ strong {
     //}
     @media (min-width: $screen-sm-min) {
         padding: 0;
-        background-image: url(/img/donate.png);
+        background-image: url(/img/feature2.png);
         background-size: 300px 250px;
         background-repeat: no-repeat;
         background-position: 60px center;
         border-radius: $border-radius;
         .content {
-            padding: 80px;
-            padding-left: 440px;// push over content
+            padding: 60px;
+            padding-left: 420px;// push over content
         }
     }
     @media (min-width: $screen-md-min) {
         background-position: 80px center;
         .content {
-            padding: 100px;
-            padding-left: 500px;// push over content
+            padding: 80px;
+            padding-left: 480px;// push over content
         }
     }
     @media (min-width: $screen-lg-min) {
@@ -753,6 +753,54 @@ strong {
         .content {
             padding: 100px;
             padding-left: 480px;// push over content
+            text-align: center;
+        }
+    }
+}
+
+.feature3 {
+    @include make-xs-column(12);
+    margin-bottom: 20px;
+    padding: 40px;
+    background-color: $yellow;
+    h3, p {
+        color: $white;
+    }
+    h3 {
+        font-size: $font-size-h2;
+        font-weight: $font-weight-light;
+    }
+    //h3, p, .content {
+    //    border: solid 1px #00f;
+    //}
+    @media (min-width: $screen-sm-min) {
+        padding: 0;
+        padding-right: 20px;// push over image
+        border-radius: $border-radius;
+        .content {
+            padding: 60px;
+            padding-right: 390px;// push over content
+            background-image: url(/img/feature3.png);
+            background-size: 300px 250px;
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+    }
+    @media (min-width: $screen-md-min) {
+        padding-right: 80px;// push over image
+        .content {
+            padding: 80px;
+            padding-right: 400px;// push over content
+        }
+    }
+    @media (min-width: $screen-lg-min) {
+        padding-right: 100px;// push over image
+        h3 {
+            font-size: $font-size-h1;
+        }
+        .content {
+            padding: 100px;
+            padding-right: 430px;// push over content
             text-align: center;
         }
     }

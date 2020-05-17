@@ -16,12 +16,21 @@ feature1:
   content: "Visit our Facebook page to stay up to date on the latest news."
   cta: "Visit Our Facebook Page"
   url: "https://www.facebook.com/marquettelearningcenter"
+  active: true
 # Feature 2
 feature2:
   heading: "Building Blocks for the Future"
   content: "We appreciate your support."
   cta: "Donate Now"
   url: "/donate/"
+  active: true
+# Feature 3
+feature3:
+  heading: "Promo Heading"
+  content: "This is the content for this promo"
+  cta: "Learn More"
+  url: "/"
+  active: false
 # Vacancies
 vacancies:
   heading: "Vacancies"
