@@ -12,10 +12,10 @@ editor:
 media_folder: "static/uploads" # Folder where user uploaded files should go
 public_folder: "/uploads" # The src attribute for uploaded files
 
-media_library:
-  name: uploadcare
-  config:
-    publicKey: de645e0a335318bb013b
+#media_library:
+#  name: uploadcare
+#  config:
+#    publicKey: de645e0a335318bb013b
 
 collections:
   - name: "pages"
