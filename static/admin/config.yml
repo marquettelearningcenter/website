@@ -365,6 +365,7 @@ collections:
             name: "items"
             widget: list
             allow_add: false
+            delete: false
             fields:
               - label: "Label"
                 name: "label"
