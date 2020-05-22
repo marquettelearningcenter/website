@@ -342,11 +342,12 @@ collections:
       - file: "data/navigation.yaml"
         label: "Navigation"
         name: "navigation"
-        - label: Navigation Links
-          name: items
-          widget: list
-          allow_add: false
-          fields:
-            - {label: Label, name: label, widget: string}
-            - {label: Slug, name: slug, widget: hidden}
-            - {label: URL, name: url, widget: hidden}
+        fields:
+          - label: "Navigation"
+            name: items
+            widget: list
+            allow_add: false
+            fields:
+              - {label: Label, name: label, widget: string}
+              - {label: Slug, name: slug, widget: hidden}
+              - {label: URL, name: url, widget: hidden}
