@@ -11,9 +11,9 @@ items:
   - label: Enroll
     slug: enroll
     url: /enroll/
-  - label: Donate
-    slug: donate
-    url: /donate/
   - label: Board
     slug: board-of-directors
     url: /board-of-directors/
+  - label: Donate
+    slug: donate
+    url: /donate/
