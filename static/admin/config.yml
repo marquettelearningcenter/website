@@ -372,6 +372,3 @@ collections:
               - label: "Slug"
                 name: "slug"
                 widget: hidden
-              - label: "URL"
-                name: "url"
-                widget: hidden

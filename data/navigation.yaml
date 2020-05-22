@@ -1,19 +1,13 @@
 items:
   - label: Overview
     slug: overview
-    url: /overview/
   - label: Hours & Tuition
     slug: hours-tuition
-    url: /hours-tuition/
   - label: Handbooks
     slug: handbooks
-    url: /handbooks/
   - label: Enroll
     slug: enroll
-    url: /enroll/
   - label: Board
     slug: board-of-directors
-    url: /board-of-directors/
   - label: Donate
     slug: donate
-    url: /donate/

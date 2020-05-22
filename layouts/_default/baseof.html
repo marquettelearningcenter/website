@@ -38,7 +38,7 @@
                     <ul>
                         <li class="home{{ if .IsHome }} selected{{ end }}"><a href="/">Home</a></li>
                         {{ range .Site.Data.navigation.items }}
-                            <li class="{{ .slug }}{{ if eq $.Type .slug }} selected{{ end }}"><a href="{{ .url }}">{{ .label }}</a></li>
+                            <li class="{{ .slug }}{{ if eq $.Type .slug }} selected{{ end }}"><a href="/{{ .slug }}/">{{ .label }}</a></li>
                         {{ end }}
                     </ul>
                 </nav>
