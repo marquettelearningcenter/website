@@ -25,300 +25,300 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - label: Intro
-            name: intro
+          - label: "Intro"
+            name: "intro"
             widget: object
             collapsed: true
             fields:
-              - label: Lead
-                name: lead
+              - label: "Lead"
+                name: "lead"
                 widget: text
-              - label: Content
-                name: content
+              - label: "Content"
+                name: "content"
                 widget: text
-          - label: Objectives
-            name: objectives
+          - label: "Objectives"
+            name: "objectives"
             widget: object
             collapsed: true
             fields:
-              - label: Lead
-                name: lead
+              - label: "Lead"
+                name: "lead"
                 widget: text
-              - label: Objectives
-                name: objectives_list
+              - label: "Objectives"
+                name: "objectives_list"
                 widget: list
                 fields:
-                  - label: Objective
-                    name: objective
+                  - label: "Objective"
+                    name: "objective"
                     widget: text
-          - label: Feature 1
-            name: feature1
+          - label: "Feature 1"
+            name: "feature1"
             widget: object
             collapsed: true
             fields:
-              - label: Heading
-                name: heading
+              - label: "Heading"
+                name: "heading"
                 widget: string
-              - label: Content
-                name: content
+              - label: "Content"
+                name: "content"
                 widget: string
-              - label: CTA
-                name: cta
+              - label: "CTA"
+                name: "cta"
                 widget: string
-              - label: URL
-                name: url
+              - label: "URL"
+                name: "url"
                 widget: string
-              - label: Active
-                name: active
+              - label: "Active"
+                name: "active"
                 widget: boolean
                 default: true
-          - label: Feature 2
-            name: feature2
+          - label: "Feature 2"
+            name: "feature2"
             widget: object
             collapsed: true
             fields:
-              - label: Heading
-                name: heading
+              - label: "Heading"
+                name: "heading"
                 widget: string
-              - label: Content
-                name: content
+              - label: "Content"
+                name: "content"
                 widget: string
-              - label: CTA
-                name: cta
+              - label: "CTA"
+                name: "cta"
                 widget: string
-              - label: URL
-                name: url
+              - label: "URL"
+                name: "url"
                 widget: string
-              - label: Active
-                name: active
+              - label: "Active"
+                name: "active"
                 widget: boolean
                 default: true
-          - label: Feature 3
-            name: feature3
+          - label: "Feature 3"
+            name: "feature3"
             widget: object
             collapsed: true
             fields:
-              - label: Heading
-                name: heading
+              - label: "Heading"
+                name: "heading"
                 widget: string
-              - label: Content
-                name: content
+              - label: "Content"
+                name: "content"
                 widget: string
-              - label: CTA
-                name: cta
+              - label: "CTA"
+                name: "cta"
                 widget: string
-              - label: URL
-                name: url
+              - label: "URL"
+                name: "url"
                 widget: string
-              - label: Active
-                name: active
+              - label: "Active"
+                name: "active"
                 widget: boolean
                 default: true
-          - label: Vacancies
-            name: vacancies
+          - label: "Vacancies"
+            name: "vacancies"
             widget: object
             collapsed: true
             fields:
-              - label: Heading
-                name: heading
+              - label: "Heading"
+                name: "heading"
                 widget: string
-              - label: Vacancies
-                name: vacancies_list
+              - label: "Vacancies"
+                name: "vacancies_list"
                 widget: list
                 fields:
-                  - label: Heading
-                    name: heading
+                  - label: "Heading"
+                    name: "heading"
                     widget: string
-                  - label: Text
-                    name: text
+                  - label: "Text"
+                    name: "text"
                     widget: string
-          - label: Contact
-            name: contact
+          - label: "Contact"
+            name: "contact"
             widget: object
             collapsed: true
             fields:
-              - label: Heading
-                name: heading
+              - label: "Heading"
+                name: "heading"
                 widget: string
                 hint: "The phone and email can be edited in Collections/Global/Config."
       - file: "content/overview/_index.md"
         label: "Overview"
         name: "overview"
         fields:
-          - label: Page Title
-            name: title
+          - label: "Page Title"
+            name: "title"
             widget: string
-          - label: Content
+          - label: "Content"
             name: body
             widget: markdown
       - file: "content/hours-tuition/_index.md"
         label: "Hours & Tuition"
         name: "hours_tuition"
         fields:
-          - label: Page Title
-            name: title
+          - label: "Page Title"
+            name: "title"
             widget: string
-          - label: Hours
-            name: hours
+          - label: "Hours"
+            name: "hours"
             widget: object
             collapsed: true
             fields:
-              - label: Heading
-                name: heading
+              - label: "Heading"
+                name: "heading"
                 widget: string
-              - label: Hours Open
-                name: hours_open
+              - label: "Hours Open"
+                name: "hours_open"
                 widget: string
-              - label: Hours Closed
-                name: hours_closed
+              - label: "Hours Closed"
+                name: "hours_closed"
                 widget: string
-          - label: Tuition
-            name: tuition
+          - label: "Tuition"
+            name: "tuition"
             widget: object
             collapsed: true
             fields:
-              - label: Heading
-                name: heading
+              - label: "Heading"
+                name: "heading"
                 widget: string
-              - label: Fulltime Heading
-                name: fulltime_heading
+              - label: "Fulltime Heading"
+                name: "fulltime_heading"
                 widget: string
-              - label: Tuition Fulltime
-                name: tuition_fulltime
+              - label: "Tuition Fulltime"
+                name: "tuition_fulltime"
                 widget: list
                 fields:
-                  - label: Heading
-                    name: heading
+                  - label: "Heading"
+                    name: "heading"
                     widget: string
-                  - label: Rate
-                    name: rate
+                  - label: "Rate"
+                    name: "rate"
                     widget: string
-              - label: Schoolage Heading
-                name: schoolage_heading
+              - label: "Schoolage Heading"
+                name: "schoolage_heading"
                 widget: string
-              - label: Tuition Schoolage
-                name: tuition_schoolage
+              - label: "Tuition Schoolage"
+                name: "tuition_schoolage"
                 widget: list
                 fields:
-                  - label: Heading
-                    name: heading
+                  - label: "Heading"
+                    name: "heading"
                     widget: string
-                  - label: Rate
-                    name: rate
+                  - label: "Rate"
+                    name: "rate"
                     widget: string
-          - label: Requirements
-            name: requirements
+          - label: "Requirements"
+            name: "requirements"
             widget: object
             collapsed: true
             fields:
-              - label: Heading
-                name: heading
+              - label: "Heading"
+                name: "heading"
                 widget: string
-              - label: Requirements
-                name: requirements_list
+              - label: "Requirements"
+                name: "requirements_list"
                 widget: list
                 fields:
-                  - label: Requirement
-                    name: requirement
+                  - label: "Requirement"
+                    name: "requirement"
                     widget: string
       - file: "content/handbooks/_index.md"
         label: "Handbooks"
         name: "handbooks"
         fields:
-          - label: Page Title
-            name: title
+          - label: "Page Title"
+            name: "title"
             widget: string
-          - label: Handbooks
-            name: handbooks
+          - label: "Handbooks"
+            name: "handbooks"
             widget: list
             fields:
-              - label: Name
-                name: name
+              - label: "Name"
+                name: "name"
                 widget: string
-              - label: Description
-                name: description
+              - label: "Description"
+                name: "description"
                 widget: text
-              - label: File
-                name: file
+              - label: "File"
+                name: "file"
                 widget: file
                 allow_multiple: false
       - file: "content/enroll/_index.md"
         label: "Enroll"
         name: "enroll"
         fields:
-          - label: Page Title
-            name: title
+          - label: "Page Title"
+            name: "title"
             widget: string
-          - label: Content
+          - label: "Content"
             name: body
             widget: markdown
-          - label: Forms Heading
-            name: forms_heading
+          - label: "Forms Heading"
+            name: "forms_heading"
             widget: string
-          - label: Forms
-            name: forms
+          - label: "Forms"
+            name: "forms"
             widget: list
             fields:
-              - label: Name
-                name: name
+              - label: "Name"
+                name: "name"
                 widget: string
-              - label: File
-                name: file
+              - label: "File"
+                name: "file"
                 widget: file
                 allow_multiple: false
       - file: "content/board-of-directors/_index.md"
         label: "Board of Directors"
         name: "board"
         fields:
-          - label: Page Title
-            name: title
+          - label: "Page Title"
+            name: "title"
             widget: string
-          - label: Directors
-            name: directors
+          - label: "Directors"
+            name: "directors"
             widget: list
             fields:
-              - label: Name
-                name: name
+              - label: "Name"
+                name: "name"
                 widget: string
-              - label: Active
-                name: active
+              - label: "Active"
+                name: "active"
                 widget: boolean
                 default: true
-              - label: Role
-                name: role
+              - label: "Role"
+                name: "role"
                 widget: string
-              - label: Image
-                name: image
+              - label: "Image"
+                name: "image"
                 widget: image
                 allow_multiple: false
                 hint: "Photo must be a 500x400 JPG image."
-              - label: Bio
-                name: bio
+              - label: "Bio"
+                name: "bio"
                 widget: text
       - file: "content/donate/_index.md"
         label: "Donate"
         name: "donate"
         fields:
-          - label: Page Title
-            name: title
+          - label: "Page Title"
+            name: "title"
             widget: string
-          - label: Content
+          - label: "Content"
             name: body
             widget: markdown
-          - label: Mail Heading
-            name: mail_heading
+          - label: "Mail Heading"
+            name: "mail_heading"
             widget: string
-          - label: Mail Address
-            name: mail_address
+          - label: "Mail Address"
+            name: "mail_address"
             widget: string
       - file: "content/donate/success.md"
         label: "Donate / Success"
         name: "donate_success"
         fields:
-          - label: Page Title
-            name: title
+          - label: "Page Title"
+            name: "title"
             widget: string
-          - label: Content
+          - label: "Content"
             name: body
             widget: markdown
   - name: "global"
@@ -328,26 +328,50 @@ collections:
         label: "Alert"
         name: "alert"
         fields:
-          - {label: Active, name: active, widget: boolean, default: false}
-          - {label: Message, name: message, widget: markdown, buttons: [bold, italic, link]}
-          - {label: Additional Information, name: additional_information, required: false, widget: markdown, buttons: [bold, italic, link]}
+          - label: "Active"
+            name: "active"
+            widget: boolean
+            default: false
+          - label: "Message"
+            name: "message"
+            widget: markdown
+            buttons: [bold, italic, link]
+          - label: "Additional Information"
+            name: "additional_information"
+            required: false
+            widget: markdown
+            buttons: [bold, italic, link]
       - file: "data/config.yaml"
         label: "Config"
         name: "config"
         fields:
-          - {label: Facebook URL, name: facebook_url, widget: string}
-          - {label: Phone, name: phone, widget: string}
-          - {label: Email, name: email, widget: string}
-          - {label: Address, name: address, widget: string}
+          - label: "Facebook URL"
+            name: "facebook_url"
+            widget: string
+          - label: "Phone"
+            name: "phone"
+            widget: string
+          - label: "Email"
+            name: "email"
+            widget: string
+          - label: "Address"
+            name: "address"
+            widget: string
       - file: "data/navigation.yaml"
         label: "Navigation"
         name: "navigation"
         fields:
-          - label: "Navigation"
-            name: items
+          - label: "Navigation Items"
+            name: "items"
             widget: list
             allow_add: false
             fields:
-              - {label: Label, name: label, widget: string}
-              - {label: Slug, name: slug, widget: hidden}
-              - {label: URL, name: url, widget: hidden}
+              - label: "Label"
+                name: "label"
+                widget: string
+              - label: "Slug"
+                name: "slug"
+                widget: hidden
+              - label: "URL"
+                name: "url"
+                widget: hidden
