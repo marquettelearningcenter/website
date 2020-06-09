@@ -1,51 +1,55 @@
 ---
-# Intro
 intro:
-  lead: "At Marquette Learning Center we believe that communication is an important aspect of your child's success and vital to building strong parent/teacher relationships."
-  content: "Our mission is to provide a safe and stable learning environment that nurtures a foundation for lifelong success through developmentally appropriate curriculum that stimulates the social, emotional, cognitive, and physical growth of each individual child."
-# Objectives
+  lead: At Marquette Learning Center we believe that communication is an important
+    aspect of your child's success and vital to building strong parent/teacher
+    relationships.
+  content: Our mission is to provide a safe and stable learning environment that
+    nurtures a foundation for lifelong success through developmentally
+    appropriate curriculum that stimulates the social, emotional, cognitive, and
+    physical growth of each individual child.
 objectives:
-  lead: "Marquette Learning Center will uphold its mission through the following objectives:"
+  lead: "Marquette Learning Center will uphold its mission through the following
+    objectives:"
   objectives_list:
-    - objective: "To provide quality child care for all families in our community and surrounding areas in a nurturing, loving and educational environment."
-    - objective: "To provide an environment where children will develop positive social skills while learning about their world though age-appropriate play, projects, and activities."
-    - objective: "To provide opportunities for families to be involved with their children's education and have access to parenting support and education resources."
-# Feature 1
+    - objective: To provide quality child care for all families in our community and
+        surrounding areas in a nurturing, loving and educational environment.
+    - objective: To provide an environment where children will develop positive social
+        skills while learning about their world though age-appropriate play,
+        projects, and activities.
+    - objective: To provide opportunities for families to be involved with their
+        children's education and have access to parenting support and education
+        resources.
 feature1:
-  heading: "Stay Up To Date"
-  content: "Visit our Facebook page to stay up to date on the latest news."
-  cta: "Visit Our Facebook Page"
-  url: "https://www.facebook.com/marquettelearningcenter"
+  heading: Stay Up To Date
+  content: Visit our Facebook page to stay up to date on the latest news.
+  cta: Visit Our Facebook Page
+  url: https://www.facebook.com/marquettelearningcenter
   active: true
-# Feature 2
 feature2:
-  heading: "Building Blocks for the Future"
-  content: "We appreciate your support."
-  cta: "Donate Now"
-  url: "/donate/"
+  heading: Building Blocks for the Future
+  content: We appreciate your support.
+  cta: Donate Now
+  url: /donate/
   active: true
-# Feature 3
 feature3:
-  heading: "Promo Heading"
-  content: "This is the content for this promo"
-  cta: "Learn More"
-  url: "/"
+  heading: Promo Heading
+  content: This is the content for this promo
+  cta: Learn More
+  url: /
   active: false
-# Vacancies
 vacancies:
-  heading: "Vacancies"
+  heading: Vacancies
   vacancies_list:
-    - heading: The Roger Loder Classroom (0-2yrs)
-      text: No vacancies until May 2020
+    - heading: The Marcene Kempke Classroom (0-2yrs)
+      text: "2 vacancies : 1 Infant and 1 toddler"
     - heading: In memory of Jon Ryan Loder and Jeffery Alan Hopp (0-2yrs)
-      text: No vacancies until May 2020
+      text: No vacancies
     - heading: The Cattlemen's Classroom (2-3yrs)
-      text: No vacancies until May 2020
+      text: 2 vacancies
     - heading: The Ren Ingemanson Classroom (3-5yrs)
-      text: No vacancies until May 2020
+      text: 2 vacancies
     - heading: The Gary Mayfield and Family Classroom (6-12yrs)
-      text: 11 vacancies
-# Contact
+      text: 6 vacancies
 contact:
   heading: "For more information:"
 ---
