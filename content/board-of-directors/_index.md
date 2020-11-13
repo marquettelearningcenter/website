@@ -65,10 +65,11 @@ directors:
     bio: Audrey has a degree in early childhood education and has been certified by
       the state to direct a childcare center, along with 10 years of experience
       guiding children in the first years of life. Audrey taught preschool in
-      her hometown of Marquette for 5 years in the United Methodist Church
-      before staying home with her two children, Kinsley and Kolt, for 3 years.
-      She has been with the Marquette Learning Center since they opened in
-      January of 2019.
+      her hometown of Marquette for 6 years in the United Methodist Church
+      before staying home to raise her two children, Kinsley and Kolt, for 3
+      years. Her and her husband, Brodie, are raising their children on a farm
+      south of Marquette. She has been with the Marquette Learning Center since
+      they opened in January of 2019.
   - name: Mari Loder
     active: false
     role: Board Member
