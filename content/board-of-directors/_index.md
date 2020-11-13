@@ -71,7 +71,7 @@ directors:
       south of Marquette. She has been with the Marquette Learning Center since
       they opened in January of 2019.
   - name: Mari Loder
-    active: false
+    active: true
     role: Board Member
     image: /uploads/mari.jpg
     bio: " Mari and her husband, Dr. Darrel Loder, moved home to the Smoky Valley in
