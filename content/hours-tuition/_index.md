@@ -4,15 +4,14 @@ hours:
   heading: Hours
   hours_open: 7:00am to 5:30pm, Monday thru Friday.
   hours_closed: "Marquette Learning Center will be closed on the following
-    Holidays: New Year’s Day, Good Friday, Memorial Day, Independence Day, Labor
-    Day, Thanksgiving Day and the following day, Christmas Eve, and Christmas
-    Day."
+    Holidays: New Year’s Day,  Memorial Day, Independence Day, Labor Day,
+    Thanksgiving Day and the following day, Christmas Eve, and Christmas Day."
 tuition:
   heading: Tuition
   fulltime_heading: Full-Time Care
   tuition_fulltime:
     - heading: Birth to 1 Year
-      rate: $145 Weekly
+      rate: $150 Weekly
     - heading: 2 Years to 5 Years
       rate: $125 Weekly
   schoolage_heading: School Age
