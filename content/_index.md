@@ -41,7 +41,7 @@ vacancies:
   heading: Vacancies
   vacancies_list:
     - heading: The Marcene Kempke Classroom (0-2yrs)
-      text: No vacanies
+      text: No vacancies
     - heading: In memory of Jon Ryan Loder and Jeffery Alan Hopp (0-2yrs)
       text: No vacancies
     - heading: The Cattlemen's Classroom (2-3yrs)
