@@ -11,19 +11,21 @@ tuition:
   fulltime_heading: Full-Time Care
   tuition_fulltime:
     - heading: Birth to 1 Year
-      rate: $150 Weekly
+      rate: $155 Weekly
     - heading: 2 Years to 5 Years
-      rate: $125 Weekly
+      rate: $130 Weekly
   schoolage_heading: School Age
   tuition_schoolage:
     - heading: Before School
-      rate: $15 Weekly
+      rate: $20 Weekly
     - heading: After School
-      rate: $30 Weekly
+      rate: $35 Weekly
     - heading: Before/After Combo
-      rate: $40 Weekly
+      rate: $45 Weekly
     - heading: Full Day
-      rate: $25 Daily
+      rate: $30 Daily
+    - heading: Full Time Summer Rate
+      rate: $115 Weekly
 requirements:
   heading: To Start
   requirements_list:
