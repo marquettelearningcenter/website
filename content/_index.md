@@ -51,7 +51,7 @@ vacancies:
     - heading: The Ren Ingemanson Classroom (3-5yrs)
       text: No vacancies
     - heading: The Gary Mayfield and Family Classroom (6-12yrs)
-      text: 3 vacancies
+      text: No vacancies
 contact:
   heading: "For more information:"
 ---
