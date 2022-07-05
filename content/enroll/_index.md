@@ -2,8 +2,6 @@
 title: Enroll
 forms_heading: Enrollment Forms
 forms:
-  - name: Drop-in Contract
-    file: /uploads/Drop-in_Contract_2020.pdf
   - name: Childcare Agreement
     file: /uploads/Childcare_Agreement_2020.pdf
   - name: Authorized Emergency Medical Form
@@ -15,5 +13,4 @@ forms:
   - name: Media Release Permission Form
     file: /uploads/media-release-permission-form.pdf
 ---
-
-Forms need to be filled out completely. Child's physical has to be completed and signed by a physician. Insurance information has to be on the authorization for emergency medical form. All forms are required before care can be given. Please make sure to call the center to inquire about childcare availability.
+Forms need to be filled out completely. Child's physical has to be completed and signed by a physician. Insurance information has to be on the authorization for emergency medical form. All forms are required before care can be given. Please make sure to call the center to inquire about childcare availability. 785-546-4246
