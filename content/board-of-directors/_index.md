@@ -8,14 +8,6 @@ directors:
     bio: Ron graduated from MHS, and attended Fort Hays State. He grew up in
       Marquette and has been a lifelong farmer in the area. Ron is a father of
       2, Emily and Tim Larson.
-  - name: Terry Hopp
-    active: true
-    role: Vice-President
-    image: /uploads/terry.jpg
-    bio: Terry graduated from MHS & FHSU, He is retired from CHS. He and his wife
-      Nancy raised their family on a farm by the smoky hill river. Terry's roots
-      run deep in this community, with his great-grandfathers coming from Sweden
-      to the Marquette area.
   - name: Betty Mattingly Amos Ph.D.
     active: true
     role: Treasurer
@@ -70,22 +62,4 @@ directors:
       years. Her and her husband, Brodie, are raising their children on a farm
       south of Marquette. She has been with the Marquette Learning Center since
       they opened in January of 2019.
-  - name: Mari Loder
-    active: true
-    role: Board Member
-    image: /uploads/mari.jpg
-    bio: " Mari and her husband, Dr. Darrel Loder, moved home to the Smoky Valley in
-      1995 where they opened Smoky Valley Chiropractic. they have been active in
-      both the Lindsborg and Marquette communities since that time.  They have
-      raised 4 children in the Smoky Valley schools, and continue to be involved
-      in their communities. The Loders make their home northwest of Marquette.
-      Current Community Service and Boards: Marquette Education Foundation Board
-      of Directors, Marquette United Methodist Church Council, Pastor Parish
-      Chairperson at Marquette United Methodist Church, Marquette Daycare Board
-      of Directors, Lindsborg Ad Hoc, Sundstrom Board of Directors, Smoky Valley
-      Development Board of Directors, Smoky Valley Wrestling Club Board of
-      Directors, Move Well, Marathon Chairman - USD 400, Bethany Home Board of
-      Directors. Former boards:USD 400 School Board - 12 years, Marquette
-      Wolverine Booster Club, Smoky Valley High School Booster Club, Smoky
-      Valley High School After Prom, Lindsborg Swedish Folk Dancers."
 ---
