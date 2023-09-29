@@ -2,5 +2,5 @@
 baseURL: "https://marquettelearningcenter.com/"
 languageCode: "en-us"
 title: "Marquette Learning Center"
-disableKinds: ["RSS","taxonomyTerm"]
+disableKinds: ["RSS", "taxonomy", "term"]
 ...
