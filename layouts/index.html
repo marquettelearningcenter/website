@@ -21,7 +21,7 @@
     <div class="content">
         <h3>{{ .Params.feature1.heading }}</h3>
         <p>{{ .Params.feature1.content }}</p>
-        <a class="btn" href="{{ .Params.feature1.url }}">{{ .Params.feature1.cta }}</a>
+        <a class="btn" href="{{ .Params.feature1.url }}"{{ if strings.HasPrefix .Params.feature1.url "http" }} target="_blank"{{ end }}>{{ .Params.feature1.cta }}</a>
     </div>
 </section>
 {{ end }}
@@ -30,7 +30,7 @@
     <div class="content">
         <h3>{{ .Params.feature2.heading }}</h3>
         <p>{{ .Params.feature2.content }}</p>
-        <a class="btn" href="{{ .Params.feature2.url }}">{{ .Params.feature2.cta }}</a>
+        <a class="btn" href="{{ .Params.feature2.url }}"{{ if strings.HasPrefix .Params.feature2.url "http" }} target="_blank"{{ end }}>{{ .Params.feature2.cta }}</a>
     </div>
 </section>
 {{ end }}
@@ -39,7 +39,7 @@
     <div class="content">
         <h3>{{ .Params.feature3.heading }}</h3>
         <p>{{ .Params.feature3.content }}</p>
-        <a class="btn" href="{{ .Params.feature3.url }}">{{ .Params.feature3.cta }}</a>
+        <a class="btn" href="{{ .Params.feature3.url }}"{{ if strings.HasPrefix .Params.feature3.url "http" }} target="_blank"{{ end }}>{{ .Params.feature3.cta }}</a>
     </div>
 </section>
 {{ end }}

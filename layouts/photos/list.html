@@ -8,7 +8,7 @@
 {{ end }}
 <script>
     window.addEventListener('DOMContentLoaded', function(event) {
-        var gallery = new SimpleLightbox('.photos a', {showCounter:false, animationSpeed:200, fadeSpeed:200});
+        var gallery = new SimpleLightbox('#photos a', {showCounter:false, animationSpeed:200, fadeSpeed:200});
     }, false);
 </script>
 
@@ -18,7 +18,7 @@
 
 <h2 class="main-header no-border">{{ .Title }}</h2>
 <section class="main-content">
-    <div class="photos">
+    <div class="photos" id="photos">
         {{ range .Params.photos }}
         <div class="photo">
             <a href="{{ .image }}">
@@ -30,7 +30,7 @@
     <section class="facebook-photos">
         <div class="content">
             <h3>Want to see more?</h3>
-            <p>Visit our <a href="{{ .Site.Data.config.facebook_url }}/photos/">Facebook page</a> to see more photos.</p>
+            <p>Visit our <a href="{{ .Site.Data.config.facebook_url }}/photos/" target="_blank">Facebook page</a> to see more photos.</p>
         </div>
     </section>
 </section>

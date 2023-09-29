@@ -43,9 +43,9 @@
             <div class="nav-container">
                 <nav id="main-nav" class="nav">
                     <ul>
-                        <li class="home{{ if .IsHome }} selected{{ end }}"><a href="/">Home</a></li>
+                        <li class="{{ if .IsHome }} selected{{ end }}"><a href="/">Home</a></li>
                         {{ range .Site.Data.navigation.items }}
-                            <li class="{{ .slug }}{{ if eq $.Type .slug }} selected{{ end }}"><a href="/{{ .slug }}/">{{ .label }}</a></li>
+                            <li class="{{ if eq $.Type .slug }} selected{{ end }}"><a href="/{{ .slug }}/">{{ .label }}</a></li>
                         {{ end }}
                     </ul>
                 </nav>
@@ -84,7 +84,7 @@
             <div class="footer-container">
                 <footer class="footer">
                     <ul>
-                        <li><a href="{{ .Site.Data.config.facebook_url }}">Visit Our Facebook Page</a></li>
+                        <li><a href="{{ .Site.Data.config.facebook_url }}" target="_blank">Visit Our Facebook Page</a></li>
                         <li>{{ .Site.Data.config.address }}</li>
                         <li>{{ .Site.Data.config.phone }}</li>
                     </ul>
