@@ -5,7 +5,7 @@ We believe that the care of your child is the single most important consideratio
 
 Marquette Learning Center provides child care services for ages 2-weeks to 12 years old. Our center is open from 7:00am to 5:30pm year-round with the exception to the following days; New Year's, Memorial Day, Independence Day, Labor Day, Thanksgiving Day and the following day, Christmas Eve, and Christmas Day. We offer before and after school services along with a summer program tailored to each child's individual academic needs. Lunches are made daily in our kitchen. We also serve a healthy breakfast and snack each day.
 
-
+![MLC](/uploads/overview.jpg)
 
 **Why choose MLC?**
 

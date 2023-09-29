@@ -27,6 +27,9 @@
             <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         {{ end }}
 
+        {{ block "head" . }}
+        {{ end }}
+
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107388812-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];

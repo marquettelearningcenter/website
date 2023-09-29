@@ -323,7 +323,6 @@ strong {
 .photo {
     text-align: center;
     img {
-        @include img-responsive;
         border-radius: $border-radius;
     }
     .caption {
@@ -489,7 +488,7 @@ strong {
         text-transform: none;
     }
     img {
-        @include img-responsive;
+        @include make-img-responsive;
     }
     @media (min-width: 370px) {
         h2 {
@@ -543,6 +542,9 @@ strong {
         @include make-sm-column-offset(1);
         @include make-md-column(8);
         @include make-md-column-offset(2);
+    }
+    img {
+        @include make-img-responsive;
     }
 }
 
@@ -831,6 +833,17 @@ strong {
     }
 }
 
+// Photos Components
+
+.photos {
+    @include make-row;
+    .photo {
+        @include make-xs-column(6);
+        @include make-sm-column(4);
+        margin-bottom: $grid-gutter-width;
+    }
+}
+
 // Facebook Photos Components
 
 .facebook-photos {
@@ -884,11 +897,6 @@ table.tuition {
 
 // Donate Components
 
-.donate-levels {
-    img {
-        @include img-responsive;
-    }
-}
 .donate-options {
     text-align: center;
 }

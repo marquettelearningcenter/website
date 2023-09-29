@@ -53,7 +53,7 @@ directors:
   - name: Audrey Seely
     active: true
     role: Center Director
-    image: /uploads/audrey-s-family.jpg
+    image: /uploads/audrey.jpg
     bio: Audrey has a degree in early childhood education and has been certified by
       the state to direct a childcare center, along with 10 years of experience
       guiding children in the first years of life. Audrey taught preschool in

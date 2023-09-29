@@ -266,6 +266,24 @@ collections:
                 name: "file"
                 widget: file
                 allow_multiple: false
+      - file: "content/photos/_index.md"
+        label: "Photos"
+        name: "photos"
+        fields:
+          - label: "Page Title"
+            name: "title"
+            widget: string
+          - label: "Photos"
+            name: "photos"
+            widget: list
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: image
+                allow_multiple: false
+              - label: "Caption"
+                name: "caption"
+                widget: string
       - file: "content/board-of-directors/_index.md"
         label: "Board of Directors"
         name: "board"
@@ -291,7 +309,6 @@ collections:
                 name: "image"
                 widget: image
                 allow_multiple: false
-                hint: "Photo must be a 500x400 JPG image."
               - label: "Bio"
                 name: "bio"
                 widget: text

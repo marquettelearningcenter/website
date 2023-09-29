@@ -1,17 +1,36 @@
+{{ define "head" }}
+
+{{ with resources.Get "/css/simple-lightbox.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" type="text/css" href="{{ .RelPermalink }}">
+{{ end }}
+{{ with resources.Get "/js/simple-lightbox.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ .RelPermalink }}"></script>
+{{ end }}
+<script>
+    window.addEventListener('DOMContentLoaded', function(event) {
+        var gallery = new SimpleLightbox('.photos a', {showCounter:false, animationSpeed:200, fadeSpeed:200});
+    }, false);
+</script>
+
+{{ end }}
+
 {{ define "main" }}
 
 <h2 class="main-header no-border">{{ .Title }}</h2>
 <section class="main-content">
-    {{ range .Params.photos }}
-    <div class="photo">
-        <img src="{{ .photo }}" alt="">
-        <span class="caption">{{ .caption }}</span>
+    <div class="photos">
+        {{ range .Params.photos }}
+        <div class="photo">
+            <a href="{{ .image }}">
+                <img src="{{ .image }}" alt="" {{ with .caption }} title="{{ . }}"{{ end }}>
+            </a>
+        </div>
+        {{ end }}
     </div>
-    {{ end }}
     <section class="facebook-photos">
         <div class="content">
             <h3>Want to see more?</h3>
-            <p>Visit our <a href="{{ .Site.Data.config.facebookURL }}/photos/">Facebook page</a> to see more photos.</p>
+            <p>Visit our <a href="{{ .Site.Data.config.facebook_url }}/photos/">Facebook page</a> to see more photos.</p>
         </div>
     </section>
 </section>
