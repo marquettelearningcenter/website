@@ -8,35 +8,9 @@ directors:
     bio: Ron graduated from MHS, and attended Fort Hays State. He grew up in
       Marquette and has been a lifelong farmer in the area. Ron is a father of
       2, Emily and Tim Larson.
-  - name: Betty Mattingly Amos Ph.D.
-    active: true
-    role: Treasurer
-    image: /uploads/betty.jpg
-    bio: "Betty graduated from University of Kansas with her Ph.D. in special
-      education. She served as the MES principal. Betty has numerous awards and
-      recognitions in early childhood education. She is a guest speaker in areas
-      of education and is a presenter in educational workshops. Betty is
-      currently a cognitive therapist for young adults with traumatic brain
-      injury and a professor at Emporia State University. Major awards and
-      recognitions: University of Kansas Merit Scholarships, 2004-2006,
-      University of Kansas Donor Scholarship, 2005-2006, Kappa Delta Pi Special
-      Education Consultant to “Dear Ruth,” 2002-present, Kansas Head Start
-      Advisory Committee, 2002-2005, National State Teachers of the Year,
-      Executive Director, 1996-1999, Kan-Lead Fellowship, 1988-89, Teacher of
-      the Year for the State of Kansas, 1984, “In Honors of Excellence”
-      Symposium, Captiva Island, FL, 1984, Kansas Teachers’ Hall of Fame
-      inductee, Dodge City, KS, 2011, Kansas Association of Special Education
-      Administrators “KIDS FIRST” Award, 2013. Membership in scholarly
-      organizations: Council for Exceptional Children, National Network of State
-      Teachers of the Year, Delta Kappa Gamma, Pi Lambda Theta & Kappa Delta Pi,
-      and Kansas  Association of Special Education Administrators. Other
-      interests: Piano Duetist with Shirley Malcolm, Colby, KS, over 165
-      performances; Most recent performances at Delta Kappa Gamma International
-      Conventions, Minneapolis, MN and SanDiego, CA, Accompanist in area
-      churches/ community activities."
   - name: Kerry Lindh
     active: true
-    role: Board Member
+    role: Vice President
     image: /uploads/kerry.jpg
     bio: "Kerry has a Bachelor of Science in education. Kerry is enjoying retirement
       with his wife of 40 years, Mary Kay, on his original 1869 family homestead
@@ -62,4 +36,21 @@ directors:
       years. Her and her husband, Brodie, are raising their children on a farm
       south of Marquette. She has been with the Marquette Learning Center since
       they opened in January of 2019.
+  - active: true
+    name: Michele VonStrohe
+    role: Board Member
+    bio: "Michele VonStrohe is an active member of the Marquette Learning Center
+      board. She also dedicates her Thursday mornings to our preschool age
+      classrooms with her Music and Math lessons. "
+    image: /uploads/facebook-profile-2-1-.png
+  - active: true
+    name: Beth Thomas
+    role: Board Member
+    bio: "Beth Thomas is an active member of the Marquette Learning Center board. "
+    image: /uploads/facebook-profile-2-1-.png
+  - active: true
+    name: Amy Kay Pavlovich
+    role: Secretary
+    image: /uploads/facebook-profile-2-1-.png
+    bio: "Amy Kay is an active member of the Marquette Learning Center board. "
 ---
