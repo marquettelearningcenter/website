@@ -40,17 +40,19 @@ feature3:
 vacancies:
   heading: Vacancies
   vacancies_list:
-    - heading: The Marcene Kempke Classroom (0-2yrs)
+    - heading: The Marcene Kempke Classroom (1-3yrs)
       text: No vacancies
     - heading: In memory of Jon Ryan Loder and Jeffery Alan Hopp (0-2yrs)
       text: No vacancies
-    - heading: The Beth Thomas Classroom (0-2 yrs)
+    - heading: The Beth Thomas Classroom (1-3 yrs)
       text: No vacancies
-    - heading: The Cattlemen's Classroom (2-3yrs)
+    - heading: The Cattlemen's Classroom (3-5yrs)
       text: No vacancies
     - heading: The Ren Ingemanson Classroom (3-5yrs)
       text: No vacancies
     - heading: The Gary Mayfield and Family Classroom (6-12yrs)
+      text: No vacancies
+    - heading: The Roy & Donice Applequist Classroom (2-3 yrs)
       text: No vacancies
 contact:
   heading: "For more information:"
