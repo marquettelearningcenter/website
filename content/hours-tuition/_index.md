@@ -11,9 +11,9 @@ tuition:
   fulltime_heading: Full-Time Care
   tuition_fulltime:
     - heading: Under 2 years old
-      rate: $165 Weekly
+      rate: $195 Weekly
     - heading: 2 Years through 5 Years
-      rate: $135 Weekly
+      rate: $165 Weekly
   schoolage_heading: School Age
   tuition_schoolage:
     - heading: Before School
