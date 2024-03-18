@@ -42,15 +42,15 @@ directors:
     bio: "Michele VonStrohe is an active member of the Marquette Learning Center
       board. She also dedicates her Thursday mornings to our preschool age
       classrooms with her Music and Math lessons. "
-    image: /uploads/facebook-profile-2-1-.png
+    image: /uploads/placeholder.png
   - active: true
     name: Beth Thomas
     role: Board Member
     bio: "Beth Thomas is an active member of the Marquette Learning Center board. "
-    image: /uploads/facebook-profile-2-1-.png
+    image: /uploads/placeholder.png
   - active: true
     name: Amy Kay Pavlovich
     role: Secretary
-    image: /uploads/facebook-profile-2-1-.png
+    image: /uploads/placeholder.png
     bio: "Amy Kay is an active member of the Marquette Learning Center board. "
 ---
