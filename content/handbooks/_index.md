@@ -8,6 +8,6 @@ handbooks:
       working parent/guardian.
     name: Parent Handbook
   - name: Staff Handbook 2024
-    file: /uploads/mlc-staff-handbook-2024.docx
     description: Staff Handbook revised by MLC Board 2024
+    file: /uploads/mlc-staff-handbook-2024.docx
 ---
