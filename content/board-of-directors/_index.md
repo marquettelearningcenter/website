@@ -29,20 +29,13 @@ directors:
     role: Center Director
     image: /uploads/audrey.jpg
     bio: Audrey has a degree in early childhood education and has been certified by
-      the state to direct a childcare center, along with 10 years of experience
+      the state to direct a childcare center, along with 15 years of experience
       guiding children in the first years of life. Audrey taught preschool in
       her hometown of Marquette for 6 years in the United Methodist Church
       before staying home to raise her two children, Kinsley and Kolt, for 3
       years. Her and her husband, Brodie, are raising their children on a farm
       south of Marquette. She has been with the Marquette Learning Center since
       they opened in January of 2019.
-  - active: true
-    name: Michele VonStrohe
-    role: Board Member
-    bio: "Michele VonStrohe is an active member of the Marquette Learning Center
-      board. She also dedicates her Thursday mornings to our preschool age
-      classrooms with her Music and Math lessons. "
-    image: /uploads/placeholder.png
   - active: true
     name: Beth Thomas
     role: Board Member
@@ -53,4 +46,14 @@ directors:
     role: Secretary
     image: /uploads/placeholder.png
     bio: "Amy Kay is an active member of the Marquette Learning Center board. "
+  - active: true
+    name: Brandi Brady
+    role: Assistant Director
+    bio: "Brandi has been with the Marquette Learning Center since the opening in
+      January of 2019. She was a Lead Teacher in one of the Infant/Toddler rooms
+      for 3 years before becoming Assistant Director in 2022. Brandi has 8 years
+      of experience working in childcare.  Brandi and her husband, Jake, reside
+      in Marquette with their four children; Gracie, MacKenzie, Liam and Jaycie.
+      "
+    image: /uploads/image0-5-.jpeg
 ---
