@@ -24,6 +24,21 @@ directors:
       spent successfully managing two different retail operations. Previous
       Community Boards: Riverview Estes Board of Directors: President and board
       member, Marquette Lions Club: President and board member."
+  - active: true
+    name: Amy Kay Pavlovich
+    role: Secretary
+    image: /uploads/placeholder.png
+    bio: "Amy Kay is an active member of the Marquette Learning Center board. "
+  - active: true
+    name: Beth Thomas
+    role: Board Member
+    bio: "Beth Thomas is an active member of the Marquette Learning Center board. "
+    image: /uploads/placeholder.png
+  - active: true
+    name: Matthew Graham
+    role: Board Member
+    bio: Matt is an active member of the Marquette Learning Center board.
+    image: /uploads/placeholder.png
   - name: Audrey Seely
     active: true
     role: Center Director
@@ -37,16 +52,6 @@ directors:
       south of Marquette. She has been with the Marquette Learning Center since
       they opened in January of 2019.
   - active: true
-    name: Beth Thomas
-    role: Board Member
-    bio: "Beth Thomas is an active member of the Marquette Learning Center board. "
-    image: /uploads/placeholder.png
-  - active: true
-    name: Amy Kay Pavlovich
-    role: Secretary
-    image: /uploads/placeholder.png
-    bio: "Amy Kay is an active member of the Marquette Learning Center board. "
-  - active: true
     name: Brandi Brady
     role: Assistant Director
     bio: "Brandi has been with the Marquette Learning Center since the opening in
@@ -56,9 +61,4 @@ directors:
       in Marquette with their four children; Gracie, MacKenzie, Liam and Jaycie.
       "
     image: /uploads/image0-5-.jpeg
-  - active: true
-    name: Matthew Graham
-    role: Board Member
-    bio: Matt is an active member of the Marquette Learning Center board.
-    image: /uploads/placeholder.png
 ---
