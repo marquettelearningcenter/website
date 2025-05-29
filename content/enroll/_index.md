@@ -2,8 +2,10 @@
 title: Enroll
 forms_heading: Enrollment Forms
 forms:
-  - name: Childcare Agreement
-    file: /uploads/Childcare_Agreement_2020.pdf
+  - name: Childcare Agreement Ages 0-2
+    file: /uploads/0-2-year-old-childcare-agreement-january-2024-.docx
+  - name: Childcare Agreement Ages 2-5
+    file: /uploads/2-5-year-old-childcare-agreement-january-2024.docx
   - name: Authorized Emergency Medical Form
     file: /uploads/Authorized_Emergency_Medical_Form.pdf
   - name: Child Medical Record Immunization History & Health Assessment
