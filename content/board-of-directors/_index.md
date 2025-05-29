@@ -56,4 +56,9 @@ directors:
       in Marquette with their four children; Gracie, MacKenzie, Liam and Jaycie.
       "
     image: /uploads/image0-5-.jpeg
+  - active: true
+    name: Matthew Graham
+    role: Board Member
+    bio: Matt is an active member of the Marquette Learning Center board.
+    image: /uploads/placeholder.png
 ---
