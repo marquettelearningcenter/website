@@ -3,15 +3,15 @@ title: Enroll
 forms_heading: Enrollment Forms
 forms:
   - name: Childcare Agreement Ages 0-2
-    file: /uploads/0-2-year-old-childcare-agreement-january-2024-.docx
+    file: /uploads/0-2-year-old-childcare-agreement-january-2024-.pdf
   - name: Childcare Agreement Ages 2-5
-    file: /uploads/2-5-year-old-childcare-agreement-january-2024.docx
-  - name: Authorized Emergency Medical Form
-    file: /uploads/Authorized_Emergency_Medical_Form.pdf
+    file: /uploads/2-5-year-old-childcare-agreement-.pdf
   - name: Child Medical Record Immunization History & Health Assessment
     file: /uploads/Child_Medical_Record_Immunization_History_&_Health_Assessment.pdf
+  - name: Authorized Emergency Medical Form
+    file: /uploads/Authorized_Emergency_Medical_Form.pdf
   - name: Parental Permission Form For Off-Premises Trips
-    file: /uploads/Parental_Permission_Form_For_Off-Premises_Trips.pdf
+    file: /uploads/permission-for-off-premises-trips_05292025122409.pdf
   - name: Media Release Permission Form
     file: /uploads/media-release-permission-form.pdf
 ---
