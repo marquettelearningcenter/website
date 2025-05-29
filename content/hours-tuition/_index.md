@@ -30,9 +30,7 @@ tuition:
 requirements:
   heading: To Start
   requirements_list:
-    - requirement: Completed Registration Forms
-    - requirement: Registration Fee
-    - requirement: First Weeks Tuition
+    - requirement: Completed Enrollment Forms
     - requirement: Physical
     - requirement: Current Shot Record
 ---
