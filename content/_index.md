@@ -46,13 +46,13 @@ vacancies:
       text: No vacancies
     - heading: The Beth Thomas Classroom (0-2 yrs)
       text: 1 infant vacancy OR 3 toddler vacancies
+    - heading: The Roy & Donice Applequist Classroom (2-3 yrs)
+      text: No vacancies
     - heading: The Cattlemen's Classroom (3-5yrs)
       text: 3 vacancies
     - heading: The Ren Ingemanson Classroom (3-5yrs)
       text: 4 vacancies
     - heading: The Gary Mayfield and Family Classroom (6-12yrs)
-      text: No vacancies
-    - heading: The Roy & Donice Applequist Classroom (2-3 yrs)
       text: No vacancies
 contact:
   heading: "For more information:"
