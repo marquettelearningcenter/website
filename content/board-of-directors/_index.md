@@ -58,7 +58,7 @@ directors:
       January of 2019. She was a Lead Teacher in one of the Infant/Toddler rooms
       for 3 years before becoming Assistant Director in 2022. Brandi has 8 years
       of experience working in childcare.  Brandi and her husband, Jake, reside
-      in Marquette with their four children; Gracie, MacKenzie, Liam and Jaycie.
+      in Marquette with their four children; Gracie, MaKenzie, Liam and Jaycie.
       "
     image: /uploads/image0-5-.jpeg
 ---
