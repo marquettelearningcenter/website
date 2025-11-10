@@ -1,8 +1,6 @@
 ---
 title: Photos
 photos:
-  - image: /uploads/279514274_3188972758096948_4771350221590203547_n.jpg
-    caption: releasing our butterflies!
   - image: /uploads/286676149_3225958251065065_7971427306610877890_n.jpg
     caption: library time!
   - image: /uploads/295514495_3260076577653232_6668766935733088407_n.jpg
@@ -19,16 +17,10 @@ photos:
     caption: chalk art!
   - image: /uploads/297441457_3265166263810930_4004999863691039469_n.jpg
     caption: chalk art!
-  - image: /uploads/302290426_3285276991799857_4361888047674075937_n.jpg
-    caption: swings!
   - image: /uploads/302514803_3285277101799846_2432325820977765485_n.jpg
     caption: tunnel time!
-  - image: /uploads/309541752_3307222042938685_6149899700254345010_n.jpg
-    caption: story time outside!
   - image: /uploads/339101403_220231783926302_2256870363466483873_n.jpg
     caption: D.A.R.E.
-  - image: /uploads/340772646_980550932932001_653432864023338534_n.jpg
-    caption: yoga!
   - image: /uploads/341015448_1423622091821086_4245474560235771262_n.jpg
     caption: music time!
   - image: /uploads/341900907_908498223564781_4333709715380829241_n.jpg
