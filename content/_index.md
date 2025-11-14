@@ -49,9 +49,9 @@ vacancies:
     - heading: The Roy & Donice Applequist Classroom (2-3 yrs)
       text: No vacancies
     - heading: The Cattlemen's Classroom (3-5yrs)
-      text: 3 vacancies
+      text: No vacancies
     - heading: The Ren Ingemanson Classroom (3-5yrs)
-      text: 3 vacancies
+      text: No vacancies
     - heading: The Gary Mayfield and Family Classroom (6-12yrs)
       text: No vacancies
 contact:
